@@ -1,0 +1,12 @@
+.list {
+  width: 78%;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .list {
+    width: 100%;
+  }
+}

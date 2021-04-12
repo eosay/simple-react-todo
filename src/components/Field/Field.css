@@ -1,0 +1,62 @@
+.textInput {
+  box-sizing: border-box;
+  font-size: 1rem;
+  border: none;
+  min-width: 0;
+  background: none;
+  color: var(--black-87);
+  padding: 0.75em;
+  font-family: "Kiwi Maru", sans-serif;
+  width: 100%;
+}
+
+.textInput:focus {
+  outline: none;
+}
+
+.textInput::placeholder {
+  color: var(--black-38);
+}
+
+.fieldContainer {
+  box-sizing: border-box;
+  display: flex;
+  background-color: var(--black-3);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem 0.5rem 0px 0px;
+  border-bottom: 1px solid var(--black-60);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .fieldContainer {
+    width: 100%;
+  }
+}
+
+.inputFieldForm {
+  min-width: 0;
+  flex-basis: 100%;
+}
+
+.btnAdd {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  outline: none;
+  margin: 1rem;
+  padding: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: var(--black-87);
+}
+
+.btnAdd:active {
+  background-color: var(--black-60);
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,12 @@
+.centerpanel {
+  width: 80%;
+  margin: auto;
+}
+
+.title {
+  color: var(--black-87);
+  font-weight: 400;
+  font-size: 3rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--black-24);
+}
